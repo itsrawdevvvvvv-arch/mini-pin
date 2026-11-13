@@ -81,7 +81,7 @@ fun PinCard(
                             .clip(RoundedCornerShape(9999.dp))
                             .background(Color.Black.copy(alpha = 0.75f))
                             .padding(horizontal = 8.dp, vertical = 4.dp),
-                        verticalAlignment = Alignment.CenterVertically
+                        contentAlignment = Alignment.CenterStart
                     ) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Icon(
